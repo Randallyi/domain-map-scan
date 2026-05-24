@@ -1,4 +1,4 @@
-<h1 align="center">Domain Map Scan</h1>
+<h1 align="center">Blind Spot Scanner</h1>
 
 <p align="center">
   <b>Tackling an invisible problem: you don't know what you don't know.</b><br>
@@ -21,7 +21,7 @@ When you enter a new domain, start a new project, or ask an AI for help but feel
 
 ## Why Do You Need This Skill?
 
-| Common Pain | Root Cause | How Domain Map Scan Helps |
+| Common Pain | Root Cause | How Blind Spot Scanner Helps |
 |-------------|-----------|---------------------------|
 | AI always gives "entry-level" answers; feels inefficient | You can't articulate what you don't know | T/F diagnostic questions expose blind spots so AI can fill them precisely |
 | Halfway through a project, you discover a critical concept you never considered | Lack of a full domain map upfront | Deconstruct into 5–8 core dimensions first to build a complete picture |
@@ -43,7 +43,7 @@ When you enter a new domain, start a new project, or ask an AI for help but feel
 
 ## Workflow
 
-A complete Domain Map Scan consists of four phases:
+A complete Blind Spot Scanner consists of four phases:
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -83,7 +83,7 @@ Output includes: threshold rationale, prioritized dimensions to patch, recommend
 ## Project Structure
 
 ```
-domain-map-scan/
+blind-spot-scanner/
 ├── SKILL.md                          # Core skill definition (triggers, instructions, output format)
 ├── demo/
 │   ├── README.md                     # Demo directory guide
@@ -106,13 +106,13 @@ domain-map-scan/
 ### Claude Code
 ```bash
 # In your project root or global skills directory
-mkdir -p .claude/skills/domain-map-scan
+mkdir -p .claude/skills/blind-spot-scanner
 # Copy SKILL.md and the resources/ directory to this path
 ```
 
 ### Kimi Code
 ```bash
-mkdir -p .kimi/skills/domain-map-scan
+mkdir -p .kimi/skills/blind-spot-scanner
 # Copy SKILL.md and the resources/ directory to this path
 ```
 
@@ -181,7 +181,7 @@ See [`resources/examples/sample-output.md`](./resources/examples/sample-output.m
    There is no universal "passing grade." A hobby prototype and a clinical decision system have completely different knowledge-depth requirements. The threshold is determined by project risk, not one-size-fits-all.
 
 3. **Scanning Is Not Learning**  
-   Domain Map Scan tells you **where** the gaps are and **how much** is enough to start, but it does not write code, train models, or replace execution. It is the "surveying" phase before breaking ground.
+   Blind Spot Scanner tells you **where** the gaps are and **how much** is enough to start, but it does not write code, train models, or replace execution. It is the "surveying" phase before breaking ground.
 
 4. **Re-Auditable**  
    We recommend re-running a scan when project scope changes significantly, a milestone is reached, or after 2–4 weeks of active work as a routine check-in. Track how your coverage evolves.

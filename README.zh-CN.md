@@ -1,4 +1,4 @@
-<h1 align="center">Domain Map Scan</h1>
+<h1 align="center">Blind Spot Scanner</h1>
 
 <p align="center">
   <b>解决一个隐形问题：你不知道自己不知道什么。</b><br>
@@ -17,7 +17,7 @@
 
 ## 为什么需要这个 Skill？
 
-| 常见困境 | 根本原因 | Domain Map Scan 的解法 |
+| 常见困境 | 根本原因 | Blind Spot Scanner 的解法 |
 |---------|---------|----------------------|
 | 向 AI 提问总是得到"入门级"回答，感觉低效 | 你无法表达你不知道什么 | 用 T/F 诊断题暴露盲区，让 AI 精准补位 |
 | 项目做到一半才发现关键概念完全没考虑 | 前期缺乏领域全貌 | 先拆解 5–8 个核心维度，建立完整地图 |
@@ -39,7 +39,7 @@
 
 ## 工作流程
 
-一次完整的 Domain Map Scan 包含四个阶段：
+一次完整的 Blind Spot Scanner 包含四个阶段：
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -79,7 +79,7 @@
 ## 项目结构
 
 ```
-domain-map-scan/
+blind-spot-scanner/
 ├── SKILL.md                          # Skill 核心定义（触发条件、指令、输出格式）
 ├── demo/
 │   ├── README.md                     # Demo 目录说明
@@ -102,13 +102,13 @@ domain-map-scan/
 ### Claude Code
 ```bash
 # 在你的项目根目录或全局 skills 目录
-mkdir -p .claude/skills/domain-map-scan
+mkdir -p .claude/skills/blind-spot-scanner
 # 将 SKILL.md 和 resources/ 目录复制到该路径
 ```
 
 ### Kimi Code
 ```bash
-mkdir -p .kimi/skills/domain-map-scan
+mkdir -p .kimi/skills/blind-spot-scanner
 # 将 SKILL.md 和 resources/ 目录复制到该路径
 ```
 
@@ -177,7 +177,7 @@ Goal: [你的项目目标]
    没有统一的"及格线"。一个 hobby 原型和一个临床决策系统的知识深度要求完全不同。门槛由项目风险决定，不是一刀切。
 
 3. **扫描不等于学习**  
-   Domain Map Scan 告诉你**哪里**有缺口、**补到什么程度**可以启动，但它本身不产生代码、不训练模型、不替代执行。它是动手之前的"勘测"阶段。
+   Blind Spot Scanner 告诉你**哪里**有缺口、**补到什么程度**可以启动，但它本身不产生代码、不训练模型、不替代执行。它是动手之前的"勘测"阶段。
 
 4. **可重复审计**  
    建议项目范围变更、到达里程碑、或持续工作 2–4 周后重新扫描，追踪知识覆盖率的变化。

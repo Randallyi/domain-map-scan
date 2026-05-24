@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Domain Map Scan Report Generator
+Blind Spot Scanner Report Generator
 
-Optional helper script to format domain map scan output.
+Optional helper script to format blind spot scanner output.
 Reads JSON input and produces a standardized markdown report.
 
 Usage:

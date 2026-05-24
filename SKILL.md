@@ -1,5 +1,5 @@
 ---
-name: domain-map-scan
+name: blind-spot-scanner
 description: |
   Trigger: User mentions entering a new field, starting a new project, 
   feeling "stuck" on what to ask, or requests a "knowledge audit" / 
@@ -13,7 +13,7 @@ description: |
 model: claude-sonnet-4
 ---
 
-# Domain Map Scan
+# Blind Spot Scanner
 
 Audit knowledge gaps before executing. Prevent "don't know what you don't know" 
 from bottlenecking AI-assisted work.
@@ -140,7 +140,7 @@ Status rules: 🟢 if Coverage ≥ Threshold; 🟡 if Coverage ≥ Threshold × 
 User: "I want to build a momentum strategy on QQQ constituents but I don't 
 know where to start."
 
-Agent response: "I'll run a domain map scan for quantitative momentum trading. 
+Agent response: "I'll run a blind spot scanner for quantitative momentum trading. 
 First, the 6 core dimensions..."
 
 ### Example Output Snippet
@@ -162,7 +162,7 @@ See `{baseDir}/demo/quant-factor-research-agent.md` for a complete, annotated wa
 - Thresholds are advisory. User overrides only after the agent restates the risk 
   and the user responds with an explicit go-ahead (e.g., "确认继续", 
   "是的，继续", "I accept the risk and want to proceed").
-- Re-audit is user-initiated. Suggest the user re-run a domain map scan when: 
+- Re-audit is user-initiated. Suggest the user re-run a blind spot scanner when: 
   (a) project scope changes significantly, (b) a milestone is reached and new 
   unknowns surface, or (c) after 2–4 weeks of active work as a routine check-in. 
   Each re-audit should be scoped to the project's current state and open questions, 

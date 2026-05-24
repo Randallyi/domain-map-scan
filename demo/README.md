@@ -1,6 +1,6 @@
-# Domain Map Scan — Demo Collection
+# Blind Spot Scanner — Demo Collection
 
-This directory contains end-to-end walkthroughs of the Domain Map Scan process for real-world projects.
+This directory contains end-to-end walkthroughs of the Blind Spot Scanner process for real-world projects.
 
 ## Available Demos
 
@@ -16,7 +16,7 @@ This directory contains end-to-end walkthroughs of the Domain Map Scan process f
 
 ## Quick Start: Run Your Own Scan
 
-If you want to perform a Domain Map Scan on a new domain:
+If you want to perform a Blind Spot Scanner on a new domain:
 
 1. Identify your **project goal** (1 sentence)
 2. Deconstruct into **5–8 core dimensions** (use `../resources/templates/` as a baseline)

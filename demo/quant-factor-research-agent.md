@@ -1,4 +1,4 @@
-# Demo: Domain Map Scan — Quantitative Factor Research Agent
+# Demo: Blind Spot Scanner — Quantitative Factor Research Agent
 
 > **Project Goal**: Build an AI agent that can perform quantitative factor research workflows like a human quant researcher,敏锐ly identify potential factors, and generate testable hypotheses.
 >
