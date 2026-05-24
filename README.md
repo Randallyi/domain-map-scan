@@ -1,8 +1,8 @@
 <h1 align="center">Domain Map Scan</h1>
 
 <p align="center">
-  <b>解决一个隐形问题：你不知道自己不知道什么。</b><br>
-  结构化认知审计 · 量化知识缺口 · 风险校准启动决策
+  <b>Tackling an invisible problem: you don't know what you don't know.</b><br>
+  Structured cognitive audit · Quantified knowledge gaps · Risk-calibrated launch decisions
 </p>
 
 <p align="center">
@@ -11,145 +11,149 @@
   <img src="https://img.shields.io/badge/license-MIT-lightgrey" alt="License">
 </p>
 
-当你进入一个新领域、启动一个新项目，或者向 AI 求助却总觉得"问不到点子上"时——瓶颈往往不是你的执行力，而是你的**知识盲区本身不可见**。这个 Skill 通过结构化诊断，把"不知道自己不知道"转化为可量化、可修补的具体缺口，帮助你在动手之前先看清地图。
+<p align="center">
+  <a href="./README.zh-CN.md">🇨🇳 简体中文</a>
+</p>
+
+When you enter a new domain, start a new project, or ask an AI for help but feel like you're "not asking the right questions" — the bottleneck is rarely your execution ability. It's that your **knowledge blind spots are invisible to you**. This Skill turns "don't know what you don't know" into quantified, patchable gaps through structured diagnostics, so you can see the map before you start moving.
 
 ---
 
-## 为什么需要这个 Skill？
+## Why Do You Need This Skill?
 
-| 常见困境 | 根本原因 | Domain Map Scan 的解法 |
-|---------|---------|----------------------|
-| 向 AI 提问总是得到"入门级"回答，感觉低效 | 你无法表达你不知道什么 | 用 T/F 诊断题暴露盲区，让 AI 精准补位 |
-| 项目做到一半才发现关键概念完全没考虑 | 前期缺乏领域全貌 | 先拆解 5–8 个核心维度，建立完整地图 |
-| 学了半天，不确定自己够不够格开始动手 | 缺乏客观的"就绪度"标尺 | 量化覆盖率 + 风险校准的 go/no-go 门槛 |
-| 每个知识点都懂一点，但串不起来 | 知识孤岛，缺少跨维度连接 | 专门设计交叉维度问题，检测融会贯通程度 |
+| Common Pain | Root Cause | How Domain Map Scan Helps |
+|-------------|-----------|---------------------------|
+| AI always gives "entry-level" answers; feels inefficient | You can't articulate what you don't know | T/F diagnostic questions expose blind spots so AI can fill them precisely |
+| Halfway through a project, you discover a critical concept you never considered | Lack of a full domain map upfront | Deconstruct into 5–8 core dimensions first to build a complete picture |
+| After studying for a while, unsure if you're ready to start | No objective "readiness" benchmark | Quantified coverage + risk-calibrated go/no-go threshold |
+| You know a bit about every topic, but can't connect them | Knowledge silos; missing cross-dimensional links | Cross-dimension questions designed to test integrated understanding |
 
-**核心价值**：把"感觉准备好了"变成"知道哪里没准备好、优先补哪里、补到什么程度可以启动"。
-
----
-
-## 什么时候激活
-
-- 你要进入一个新的技术领域或子方向
-- 你觉得问 AI 的问题"质量很低"或总是重复
-- 你要了一份"学习路线"或"入门指南"
-- 你准备立项，但不确定前置知识深度够不够
+**Core Value**: Turn "I feel ready" into "I know exactly what's missing, what to prioritize, and how much is enough to start."
 
 ---
 
-## 工作流程
+## When to Activate
 
-一次完整的 Domain Map Scan 包含四个阶段：
+- You're exploring a new technical domain or sub-field
+- You feel your questions to AI are "low quality" or repetitive
+- You've asked for a "learning path," "roadmap," or "where to start"
+- You're about to commit to a project but unsure of prerequisite depth
+
+---
+
+## Workflow
+
+A complete Domain Map Scan consists of four phases:
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  1. 拆解领域     │ → │  2. 诊断盲区     │ → │  3. 量化覆盖     │ → │  4. 启动决策     │
+│ 1. Deconstruct  │ → │ 2. Diagnose     │ → │ 3. Quantify     │ → │ 4. Gate         │
 │                 │    │                 │    │                 │    │                 │
-│ 识别5-8个核心    │    │ 每维度4-6道     │    │ 各维度0-100%    │    │ 风险校准的       │
-│ 维度+关键概念    │    │ T/F诊断题       │    │ 覆盖率评分      │    │ go/no-go门槛    │
+│ Identify 5–8    │    │ 4–6 T/F         │    │ 0–100% coverage │    │ Risk-calibrated │
+│ dimensions      │    │ per dimension   │    │ score per dim   │    │ go/no-go        │
 └─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-### 阶段详解
+### Phase Details
 
-**① 拆解领域**  
-将目标领域分解为 5–8 个核心维度。如果领域匹配已知模板（量化交易、AI Agent 系统、学术出版等），会加载预设模板作为基线；否则从零构建。
+**① Deconstruct the Domain**  
+Break the target domain into 5–8 core dimensions. If the domain matches a known template (quantitative trading, AI agent systems, academic publishing, etc.), a preset template is loaded as the baseline; otherwise built from first principles.
 
-**② 诊断盲区**  
-每个维度 4–6 道 True/False 题，覆盖：
-- 概念定义（抓定义性错误）
-- 常见误区/隐性知识（抓隐藏的坑）
-- 跨维度交叉点（防止知识孤岛）
+**② Diagnose Blind Spots**  
+Each dimension has 4–6 True/False questions covering:
+- Concept definitions (catch definitional errors)
+- Common misconceptions / tacit knowledge (catch hidden foot-guns)
+- Cross-dimensional intersections (prevent siloed understanding)
 
-逐题作答后立即揭示答案与解释，答不上来会自动切换为"探索模式"。
+Answers are revealed immediately after each question, with concise explanations. If you can't answer, the system automatically switches to "exploratory mode."
 
-**③ 量化覆盖**  
-每个维度 0–100% 评分，并定位瓶颈维度（得分最低项）。
+**③ Quantify Coverage**  
+Each dimension is scored 0–100%, and the bottleneck dimension (lowest score) is identified.
 
-**④ 启动决策**  
-根据项目风险画像（错误成本 × 反馈速度）设定 go/no-go 门槛：
-- 高代价 + 慢反馈（医疗、法律、生产安全）：75–90%
-- 中代价 + 中反馈（数据科学、Web 开发）：50–65%
-- 低代价 + 快反馈（原型、回测、个人项目）：25–40%
+**④ Gate Decision**  
+Set a go/no-go threshold based on the project's risk profile (cost of error × feedback speed):
+- High cost + slow feedback (medicine, law, production security): 75–90%
+- Medium cost + medium feedback (data science, web dev): 50–65%
+- Low cost + fast feedback (prototypes, backtests, personal projects): 25–40%
 
-输出包含：门槛 rationale、优先修补维度、推荐资源、启动检查清单。
+Output includes: threshold rationale, prioritized dimensions to patch, recommended resources, and a launch checklist.
 
 ---
 
-## 项目结构
+## Project Structure
 
 ```
 domain-map-scan/
-├── SKILL.md                          # Skill 核心定义（触发条件、指令、输出格式）
+├── SKILL.md                          # Core skill definition (triggers, instructions, output format)
 ├── demo/
-│   ├── README.md                     # Demo 目录说明
-│   └── quant-factor-research-agent.md  # 完整走查示例：量化因子研究 Agent
+│   ├── README.md                     # Demo directory guide
+│   └── quant-factor-research-agent.md  # End-to-end walkthrough: quant factor research agent
 ├── resources/
-│   ├── templates/                    # 领域维度模板
-│   │   ├── trading-dimensions.md     # 量化交易
-│   │   ├── agent-dimensions.md       # AI Agent 系统
-│   │   └── publishing-dimensions.md  # 学术出版
+│   ├── templates/                    # Domain dimension templates
+│   │   ├── trading-dimensions.md     # Quantitative trading
+│   │   ├── agent-dimensions.md       # AI agent systems
+│   │   └── publishing-dimensions.md  # Academic publishing
 │   └── examples/
-│       └── sample-output.md          # 报告输出格式示例
+│       └── sample-output.md          # Sample report output
 └── scripts/
-    └── generate-report.py            # 报告生成辅助脚本
+    └── generate-report.py            # Report generation helper script
 ```
 
 ---
 
-## 安装
+## Installation
 
 ### Claude Code
 ```bash
-# 在你的项目根目录或全局 skills 目录
+# In your project root or global skills directory
 mkdir -p .claude/skills/domain-map-scan
-# 将 SKILL.md 和 resources/ 目录复制到该路径
+# Copy SKILL.md and the resources/ directory to this path
 ```
 
 ### Kimi Code
 ```bash
 mkdir -p .kimi/skills/domain-map-scan
-# 将 SKILL.md 和 resources/ 目录复制到该路径
+# Copy SKILL.md and the resources/ directory to this path
 ```
 
-### 手动使用（任意 AI 助手）
-直接复制 `SKILL.md` 中的 Instructions 部分到系统提示词（system prompt）或对话开头即可生效，不依赖特定平台。
+### Manual Use (Any AI Assistant)
+Simply copy the Instructions section from `SKILL.md` into your system prompt or at the start of a conversation. Works on any platform.
 
-## 快速开始
+## Quick Start
 
-### 方式一：自动触发（Claude / Kimi Code）
+### Method 1: Auto-Trigger (Claude / Kimi Code)
 
-确保 Skill 已安装到 `.claude/skills/` 或 `.kimi/skills/` 目录后，在对话中说出以下任意关键词即可自动激活：
+After installing the Skill to `.claude/skills/` or `.kimi/skills/`, say any of the following keywords in a conversation to auto-activate:
 
-| 触发语 | 示例 |
-|--------|------|
-| 领域扫描 / Domain Map / 知识审计 | "给我做个知识审计，我要入门 AI Agent" |
-| 不知道从哪里开始 / 怎么入手 | "我想做量化策略，但完全不知道从哪里开始" |
-| 学习路线 / 入门指南 / roadmap | "我要发 ML 顶会，帮我看看缺什么" |
-| 盲区 / 缺口 / 瓶颈 | "我感觉自己问 AI 的问题质量很低" |
+| Trigger Keywords | Example |
+|------------------|---------|
+| domain map / knowledge audit / 知识审计 | "Give me a knowledge audit, I want to learn AI agents" |
+| don't know where to start / how to begin | "I want to build a quant strategy but have no idea where to start" |
+| learning path / roadmap / 入门指南 | "I want to publish an ML paper, help me see what's missing" |
+| blind spot / gap / bottleneck / 盲区 | "I feel like my questions to AI are low quality" |
 
-AI 会自动执行四阶段扫描流程。
+The AI will automatically execute the four-phase scan.
 
-### 方式二：阅读 Demo 自学
+### Method 2: Learn from Demo
 
-[`demo/quant-factor-research-agent.md`](./demo/quant-factor-research-agent.md) 是一个完整的端到端示例，覆盖：
-- 跨两个模板（交易 + Agent 系统）的领域拆解
-- 6 个维度、30 道 T/F 题及答案解析
-- 覆盖率评分与争议题处理
-- 最终风险校准启动决策
+[`demo/quant-factor-research-agent.md`](./demo/quant-factor-research-agent.md) is a complete end-to-end example covering:
+- Domain deconstruction across two templates (trading + agent systems)
+- 6 dimensions, 30 T/F questions with answer rationales
+- Coverage scoring and contested-question handling
+- Final risk-calibrated launch decision
 
-你可以把它当作"模板"，替换其中的维度、题目和项目目标，用于自己的领域。
+You can use it as a template — replace the dimensions, questions, and project goal for your own domain.
 
 ---
 
-## 输出样例
+## Sample Output
 
-扫描完成后，你会得到一份结构化的 Markdown 报告：
+After the scan, you'll receive a structured Markdown report:
 
 ```markdown
-# Domain Map: [领域名称]
-Date: 2026-05-24
-Goal: [你的项目目标]
+# Domain Map: [Domain Name]
+Date: YYYY-MM-DD
+Goal: [Your project goal]
 
 ## Dimensions
 | Dimension | Coverage | Threshold | Status |
@@ -157,57 +161,57 @@ Goal: [你的项目目标]
 | ...       | ...%     | ...%      | 🔴🟡🟢 |
 
 ## Critical Blind Spots (Top 3)
-1. **[维度]**: [盲区描述] → [行动建议]
+1. **[Dimension]**: [Blind spot description] → [Action]
 
 ## Launch Decision
-- [ ] GO — 可以启动，并行修补 [维度] 至 [X]%
-- [ ] NO-GO — 先修补 [维度] 至 [X]%，预计耗时 [Y]
+- [ ] GO — Start project. Parallel track: patch [Dimension] to [X]%
+- [ ] NO-GO — First patch [Dimension] to [X]%. Estimated time: [Y]
 ```
 
-完整样例见 [`resources/examples/sample-output.md`](./resources/examples/sample-output.md)。
+See [`resources/examples/sample-output.md`](./resources/examples/sample-output.md) for a full rendered example.
 
 ---
 
-## 设计原则
+## Design Principles
 
-1. **盲区显性化**  
-   你不知道的东西如果被遗漏，成本极高。T/F 诊断题的设计目标就是"逼出"那些你以为自己懂、其实理解有偏差的点。
+1. **Make Blind Spots Visible**  
+   What you don't know, if missed, is extremely costly. T/F diagnostic questions are designed to "surface" the things you think you understand but actually have wrong.
 
-2. **门槛动态化**  
-   没有统一的"及格线"。一个 hobby 原型和一个临床决策系统的知识深度要求完全不同。门槛由项目风险决定，不是一刀切。
+2. **Dynamic Thresholds**  
+   There is no universal "passing grade." A hobby prototype and a clinical decision system have completely different knowledge-depth requirements. The threshold is determined by project risk, not one-size-fits-all.
 
-3. **扫描不等于学习**  
-   Domain Map Scan 告诉你**哪里**有缺口、**补到什么程度**可以启动，但它本身不产生代码、不训练模型、不替代执行。它是动手之前的"勘测"阶段。
+3. **Scanning Is Not Learning**  
+   Domain Map Scan tells you **where** the gaps are and **how much** is enough to start, but it does not write code, train models, or replace execution. It is the "surveying" phase before breaking ground.
 
-4. **可重复审计**  
-   建议项目范围变更、到达里程碑、或持续工作 2–4 周后重新扫描，追踪知识覆盖率的变化。
-
----
-
-## 适用领域模板
-
-当前内置模板覆盖以下领域，持续扩展中：
-
-| 领域 | 模板 | 场景 |
-|------|------|------|
-| 量化交易 | `trading-dimensions.md` | 策略开发、回测 |
-| AI Agent | `agent-dimensions.md` | 架构设计、工具编排 |
-| 学术出版 | `publishing-dimensions.md` | 顶会投稿、期刊评审 |
-
-如果你的领域不在列表中，Skill 会从第一性原理生成维度，你也可以贡献新模板。
+4. **Re-Auditable**  
+   We recommend re-running a scan when project scope changes significantly, a milestone is reached, or after 2–4 weeks of active work as a routine check-in. Track how your coverage evolves.
 
 ---
 
-## 贡献
+## Built-in Domain Templates
 
-1. **Fork** 本仓库
-2. 在 `resources/templates/` 添加新模板，或在 `demo/` 添加走查案例
-3. 确保新模板覆盖 5–8 个维度，每个维度含定义、关键概念、safe-to-proceed 标准
-4. 提交 **Pull Request**，描述你覆盖的领域和使用场景
+Currently available templates, with more to come:
 
-欢迎提交新的领域模板、Demo 走查或改进建议。请确保：
-- Demo 走查包含完整的问题集、答案解释和评分逻辑
-- 遵循现有目录结构和格式规范
+| Domain | Template | Scenarios |
+|--------|----------|-----------|
+| Quantitative Trading | `trading-dimensions.md` | Strategy development, backtesting |
+| AI Agent | `agent-dimensions.md` | Architecture design, tool orchestration |
+| Academic Publishing | `publishing-dimensions.md` | Conference submission, journal review |
+
+If your domain isn't listed, the Skill will generate dimensions from first principles. You're also welcome to contribute new templates.
+
+---
+
+## Contributing
+
+1. **Fork** this repository
+2. Add a new template in `resources/templates/` or a walkthrough in `demo/`
+3. Ensure the template covers 5–8 dimensions, each with definition, key concepts, and safe-to-proceed criterion
+4. Submit a **Pull Request** describing the domain and use case
+
+New domain templates, demo walkthroughs, and improvement suggestions are all welcome. Please make sure:
+- Demo walkthroughs include complete question sets, answer explanations, and scoring logic
+- You follow the existing directory structure and format conventions
 
 ---
 
