@@ -116,15 +116,13 @@ blind-spot-scanner/
 ├── demo/
 │   ├── README.md                     # Demo 目录说明
 │   └── quant-factor-research-agent.md  # 完整走查示例：量化因子研究 Agent
-├── resources/
-│   ├── templates/                    # 领域维度模板
-│   │   ├── trading-dimensions.md     # 量化交易
-│   │   ├── agent-dimensions.md       # AI Agent 系统
-│   │   └── publishing-dimensions.md  # 学术出版
-│   └── examples/
-│       └── sample-output.md          # 报告输出格式示例
-└── scripts/
-
+└── resources/
+    ├── templates/                    # 领域维度模板
+    │   ├── trading-dimensions.md     # 量化交易
+    │   ├── agent-dimensions.md       # AI Agent 系统
+    │   └── publishing-dimensions.md  # 学术出版
+    └── examples/
+        └── sample-output.md          # 报告输出格式示例
 ```
 
 ---

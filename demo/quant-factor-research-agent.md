@@ -1,6 +1,6 @@
 # Demo: Blind Spot Scanner — Quantitative Factor Research Agent
 
-> **Project Goal**: Build an AI agent that can perform quantitative factor research workflows like a human quant researcher,敏锐ly identify potential factors, and generate testable hypotheses.
+> **Project Goal**: Build an AI agent that can perform quantitative factor research workflows like a human quant researcher,acutely identify potential factors, and generate testable hypotheses.
 >
 > **Date**: 2026-05-24
 
@@ -73,9 +73,9 @@ This project spans two known template domains:
 
 | Question | User Answer | Correct | Explanation |
 |----------|-------------|---------|-------------|
-| Q2.1 | **不清楚** | 🔍 T | **Filing date** is the cornerstone of point-in-time data. Using period-end date assumes the market knew the report content on that date — classic look-ahead bias. |
+| Q2.1 | **Unclear** | 🔍 T | **Filing date** is the cornerstone of point-in-time data. Using period-end date assumes the market knew the report content on that date — classic look-ahead bias. |
 | Q2.2 | **F** | ❌ T | This **is** survivorship bias. Current constituents are the "survivors"; delisted/bankrupt/acquired stocks are silently removed. Backtesting with current constituents systematically overstates returns. |
-| Q2.3 | **不清楚** | 🔍 F | The difference is **not just magnitude**. Unadjusted prices drop on ex-dividend dates, creating false losses that distort return calculations and rankings. Adjusted prices are mandatory for any return-based factor. |
+| Q2.3 | **Unclear** | 🔍 F | The difference is **not just magnitude**. Unadjusted prices drop on ex-dividend dates, creating false losses that distort return calculations and rankings. Adjusted prices are mandatory for any return-based factor. |
 | Q2.4 | **T** | ✅ T | This is the **point-in-time alignment principle**: at any point in time, only use data "known at that time." Using today's market cap with last quarter's earnings is looking into the future. |
 | Q2.5 | **T** | ❌ F | Returns during suspension are **not zero** — they are **unobserved**. Forward-filling masks post-resumption gap risk and creates false safety in cross-sectional analysis. Proper handling requires special flags, exclusion, or post-resumption window treatment. |
 
@@ -99,7 +99,7 @@ This project spans two known template domains:
 
 | Question | User Answer | Correct | Explanation |
 |----------|-------------|---------|-------------|
-| Q3.1 | **不知道** | 🔍 T | **Rank IC** is indeed preferred. Pearson is outlier-sensitive; factor investing is fundamentally about **ranking** (which stocks are top vs bottom), making Rank IC the natural choice. |
+| Q3.1 | **Don't know** | 🔍 T | **Rank IC** is indeed preferred. Pearson is outlier-sensitive; factor investing is fundamentally about **ranking** (which stocks are top vs bottom), making Rank IC the natural choice. |
 | Q3.2 | **T** | ❌ F | This is the classic **multiple testing problem**. With 100 random factors, you'd expect ~5 to appear significant at 5% by chance (100 × 0.05 = 5). Without correction (Bonferroni, FDR), false positives run rampant. |
 | Q3.3 | **T** | ✅ T | IR = mean(IC) / IC volatility. Higher denominator → lower IR. IR measures **prediction stability** — a high IR means consistent, stable predictive power. |
 | Q3.4 | **T** | ✅ T | Monotonicity is the **signature** of quantile tests. A flat or inverted return curve signals noise or structural breaks. |
@@ -217,7 +217,7 @@ This project spans two known template domains:
 ### Final Report
 
 ```markdown
-# Domain Map: 量化交易因子研究 Agent
+# Domain Map: Quantitative Trading Factor Research Agent
 Date: 2026-05-24
 Goal: Build an AI agent that performs quant factor research workflows and generates testable hypotheses
 

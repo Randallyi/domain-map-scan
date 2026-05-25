@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="./README.zh-CN.md">🇨🇳 简体中文</a>
+  <a href="./README.zh-CN.md">🇨🇳 Simplified Chinese</a>
 </p>
 
 When you enter a new domain, start a new project, or ask an AI for help but feel like you're "not asking the right questions" — the bottleneck is rarely your execution ability. It's that your **knowledge blind spots are invisible to you**. This Skill turns "don't know what you don't know" into quantified, patchable gaps through structured diagnostics, so you can see the map before you start moving.
@@ -48,7 +48,7 @@ A complete Blind Spot Scanner consists of four phases:
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│ 1. Deconstruct  │ → │ 2. Diagnose     │ → │ 3. Quantify     │ → │ 4. Gate         │
+│ 1. Deconstruct  │ →  │ 2. Diagnose     │ →  │ 3. Quantify     │ →  │ 4. Gate         │
 │                 │    │                 │    │                 │    │                 │
 │ Identify 5–8    │    │ 4–6 T/F         │    │ 0–100% coverage │    │ Risk-calibrated │
 │ dimensions      │    │ per dimension   │    │ score per dim   │    │ go/no-go        │
@@ -83,10 +83,10 @@ Output includes: threshold rationale, prioritized dimensions to patch, recommend
 
 ## Re-audit
 
-After your first scan, say **"re-audit"** (or "重新扫描") to run a follow-up scan on the same domain. The agent will:
+After your first scan, say **"re-audit"** to run a follow-up scan on the same domain. The agent will:
 
 1. **Find your last report** in `docs/blind-spot-scan/`
-2. **Ask for confirmation**: "是对 `blind-spot-scan-[domain]-YYYY-MM-DD.md` 这份报告进行 re-audit 吗？"
+2. **Ask for confirmation**: "Re-audit the report `blind-spot-scan-[domain]-YYYY-MM-DD.md`?"
 3. **Reuse the same dimensions** but rotate questions to test retention + new depth
 4. **Generate a Diff appendix** comparing coverage before vs. after:
 
@@ -120,15 +120,13 @@ blind-spot-scanner/
 ├── demo/
 │   ├── README.md                     # Demo directory guide
 │   └── quant-factor-research-agent.md  # End-to-end walkthrough: quant factor research agent
-├── resources/
-│   ├── templates/                    # Domain dimension templates
-│   │   ├── trading-dimensions.md     # Quantitative trading
-│   │   ├── agent-dimensions.md       # AI agent systems
-│   │   └── publishing-dimensions.md  # Academic publishing
-│   └── examples/
-│       └── sample-output.md          # Sample report output
-└── scripts/
-
+└── resources/
+    ├── templates/                    # Domain dimension templates
+    │   ├── trading-dimensions.md     # Quantitative trading
+    │   ├── agent-dimensions.md       # AI agent systems
+    │   └── publishing-dimensions.md  # Academic publishing
+    └── examples/
+        └── sample-output.md          # Sample report output
 ```
 
 ---
@@ -159,10 +157,10 @@ After installing the Skill to `.claude/skills/` or `.kimi/skills/`, say any of t
 
 | Trigger Keywords | Example |
 |------------------|---------|
-| domain map / knowledge audit / 知识审计 | "Give me a knowledge audit, I want to learn AI agents" |
+| domain map / knowledge audit | "Give me a knowledge audit, I want to learn AI agents" |
 | don't know where to start / how to begin | "I want to build a quant strategy but have no idea where to start" |
-| learning path / roadmap / 入门指南 | "I want to publish an ML paper, help me see what's missing" |
-| blind spot / gap / bottleneck / 盲区 | "I feel like my questions to AI are low quality" |
+| learning path / roadmap | "I want to publish an ML paper, help me see what's missing" |
+| blind spot / gap / bottleneck | "I feel like my questions to AI are low quality" |
 
 The AI will automatically execute the four-phase scan.
 
