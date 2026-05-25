@@ -133,17 +133,11 @@ blind-spot-scanner/
 
 ## Installation
 
-### Claude Code
-```bash
-# In your project root or global skills directory
-mkdir -p .claude/skills/blind-spot-scanner
-# Copy SKILL.md and the resources/ directory to this path
-```
+Copy the prompt below and send it to your AI Agent. The Agent will clone and install automatically from GitHub:
 
-### Kimi Code
-```bash
-mkdir -p .kimi/skills/blind-spot-scanner
-# Copy SKILL.md and the resources/ directory to this path
+```
+Clone the blind-spot-scanner skill from https://github.com/Randallyi/blind-spot-scanner.git
+into your skills directory (e.g., <agent-root>/skills/blind-spot-scanner/).
 ```
 
 ### Manual Use (Any AI Assistant)
