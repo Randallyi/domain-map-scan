@@ -38,6 +38,7 @@ When you enter a new domain, start a new project, or ask an AI for help but feel
 - You feel your questions to AI are "low quality" or repetitive
 - You've asked for a "learning path," "roadmap," or "where to start"
 - You're about to commit to a project but unsure of prerequisite depth
+- You want to re-audit or track progress on a previously scanned domain
 
 ---
 
@@ -80,6 +81,37 @@ Output includes: threshold rationale, prioritized dimensions to patch, recommend
 
 ---
 
+## Re-audit
+
+After your first scan, say **"re-audit"** (or "重新扫描") to run a follow-up scan on the same domain. The agent will:
+
+1. **Find your last report** in `docs/blind-spot-scan/`
+2. **Ask for confirmation**: "是对 `blind-spot-scan-[domain]-YYYY-MM-DD.md` 这份报告进行 re-audit 吗？"
+3. **Reuse the same dimensions** but rotate questions to test retention + new depth
+4. **Generate a Diff appendix** comparing coverage before vs. after:
+
+```
+## Re-audit Diff (vs 2024-05-01)
+
+**Data Pipeline:** 35% → 62% (+27%) 📈
+**Risk Management:** 58% → 45% (-13%) 📉
+**Backtesting:** 75% → 82% (+7%) ➡️
+
+Coverage legend: <60%=🔴  60–79%=🟡  ≥80%=🟢
+
+**Top improvement:** Data Pipeline — from near-blank to tutorial-ready
+**Regression alert:** Risk Management — slipped back on tail-risk concepts
+```
+
+The Diff uses a render-safe text format (no markdown tables). Trend arrows: +10% or more → 📈 | −10% or more → 📉 | otherwise → ➡️.
+
+**When to re-audit:**
+- After 2–4 weeks of active study
+- When project scope changes significantly
+- After reaching a milestone and encountering new unknowns
+
+---
+
 ## Project Structure
 
 ```
@@ -96,7 +128,7 @@ blind-spot-scanner/
 │   └── examples/
 │       └── sample-output.md          # Sample report output
 └── scripts/
-    └── generate-report.py            # Report generation helper script
+
 ```
 
 ---
@@ -183,8 +215,8 @@ See [`resources/examples/sample-output.md`](./resources/examples/sample-output.m
 3. **Scanning Is Not Learning**  
    Blind Spot Scanner tells you **where** the gaps are and **how much** is enough to start, but it does not write code, train models, or replace execution. It is the "surveying" phase before breaking ground.
 
-4. **Re-Auditable**  
-   We recommend re-running a scan when project scope changes significantly, a milestone is reached, or after 2–4 weeks of active work as a routine check-in. Track how your coverage evolves.
+4. **Re-Auditable with Diff**  
+   Re-running a scan after 2–4 weeks is not a reset — it's a delta. The Diff appendix shows exactly which dimensions improved, which regressed, and why, turning "I think I learned something" into "Data Pipeline +27%, but Risk Management slipped −13%." Re-audit is user-initiated; the agent never runs it automatically.
 
 ---
 
